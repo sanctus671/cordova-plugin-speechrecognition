@@ -45,11 +45,11 @@
     </config-file>
 
     <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-      <string>Request to use Microphone</string>
+      <string>Microphone required to perform dictation. Your voice will only be recorded when you press the blue microphone button.</string>
     </config-file>
 
     <config-file target="*-Info.plist" parent="NSSpeechRecognitionUsageDescription">
-      <string>Request to use Speech Recognition</string>
+      <string>Request to use Speech Recognition to perform dictation.</string>
     </config-file>
 
     <header-file src="src/ios/SpeechRecognition.h"/>
